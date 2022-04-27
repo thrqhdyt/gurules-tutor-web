@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* === NAVBAR === */
+.navbar {
+    background-color: #483D8B!important;
+}
+
+.navbar-brand {
+    color: white!important;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.nav-link {
+    margin: 0 20px;
+    color: white!important;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.navbar-nav button {
+    margin-left: 10px;
+    font-size: 14px;
+    width: 80px;
+    border-radius: 5px;
+    color: white!important;
+    background-color: salmon;
+    text-align: center;
+}
+
+/* === jumbotron === */
+
+.jumbotron {
+    background-color: #483D8B;
+    height: 700px;
+}
+
+.intro {
+    color: white;
+}
+
+.intro h1 {
+    margin-bottom: 25px;
+    word-spacing: 3px;
+}
+
+.intro p {
+    font-size: 14px;
+    line-height: 30px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.image img {
+    height: 600px;
+    width: 420px;
+    border-radius: 0 150px 0 150px;
+    margin-top: 30px;
+}
+
+.search {
+    background-color: #ffffff;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.search form {
+    z-index: 999999;
+    padding: 5px 20px;
+}
+
+.search form button {
+    margin-left: -74px;
+    background-color: salmon;
+    color: #ffffff;
+}
+
+
+/* === TESTIMONI === */
+.testimoni {
+    margin-top: 400px;
+}
+.testi {
+    background-color:#F5F5F5;
+    border-radius: 200px 0 200px 0;
+    height: 250px;
+    z-index: -99999;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.testi h2 {
+    font-size: 24px;
+}
+
+
+/* === ABOUT === */
+#about {
+    margin-top: 120px;
+}
+
+#about img {
+    position: relative;
+    width: 430px;
+    height: 300px;
+    border-radius: 0 100px 0 100px;
+    z-index: 999;
+}
+
+.bottom-imgcolor {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    height: 150px;
+    width: 150px;
+    background-color: #FFE4C4;
+    border-radius: 100px 0 0 100px;
+    z-index: -9999;
+}
+
+#about h1 {
+    margin-top: 50px;
+}
+
+#about p {
+    font-size: 14px;
+    line-height: 30px;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+}
+
+
+/* === CATEGORY === */
+#category {
+    margin-top: 50px;
+}
+
+#category h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.browse p {
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+
+.fitur {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fitur img {
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.fitur p {
+    font-size: 12px;
+}
+
+.fitur1 {
+    height: 90px;
+    background-color: seagreen;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px 25px 0 25px;
+}
+
+.fitur2 {
+    height: 90px;
+    background-color: rgba(245, 194, 100, 0.897);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0 25px 25px 25px; 
+}
+
+.fitur3 {
+    height: 90px;
+    background-color: rgb(56, 16, 165);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px 0 25px 25px; 
+    color: #ffffff;
+    text-align: center;
+}
+
+.fitur3 p {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.fitur4 {
+    height: 90px;
+    background-color: rgba(245, 194, 100, 0.897);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0 25px 25px 25px; 
+}
+
+.fitur5 {
+    height: 90px;
+    background-color: seagreen;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px 25px 0 25px;
+}
+
+.fitur1 , .fitur2 , .fitur3 , .fitur4 , .fitur5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* === TUTOR'S === */
+#tutors {
+    background-color: #F5F5F5;
+    margin-top: 100px;
+    height: 1650px;
+}
+
+.design {
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding:20px;
+    border-radius: 15px;
+}
+
+.design button {
+    margin-bottom: 20px;
+}
+
+.imagemusic img {
+    height: 300px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.imagemusic button {
+    background-color: #F5F5F5;
+    margin-top: -550px;
+    margin-left: 20px;
+    border-radius: 25px;
+    width: 80px;
+}
+
+.imagemusic p {
+    color: #F5F5F5;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+.languange {
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding:20px;
+    border-radius: 15px;
+}
+
+
+.languange h6 {
+    margin-top: 20px;
+}
+
+.languange img {
+    margin-top: 20px;
+}
+
+.art {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding:20px;
+    border-radius: 15px;
+}
+
+.art h6 {
+    margin-top: 20px;
+}
+
+.tutor {
+    margin-top: 50px;
+}
+
+.tutor h2 {
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.tutor a {
+    margin-left: 50px;
+    color: grey;
+}
+
+.music {
+    background-color: #ffffff;
+    margin-top: 70px;
+    padding:20px;
+    border-radius: 15px;   
+}
+
+.music h6 {
+    margin-top: 20px;
+}
+
+
+/* === download === */
+#download {
+    margin-top: 100px;
+}
+
+.easier {
+    width: 70%;
+}
+
+.easier h2 {
+    margin-bottom: 30px;
+}
+
+.easier p {
+    line-height: 30px;
+}
+
+.easier button {
+    margin-right: 20px;
+}
+
+#download img {
+    margin-left: 330px;
+    margin-top: -300px;
+}
+
+
+/* === FOOTER === */
+.footer {
+    background-color: #483D8B;
+    color: #ffffff;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.infofooter {
+    display: flex;
+}
+
+.infofooter p {
+    margin-left: 50px;
+}
+
+.footer hr {
+    background-color: #F5F5F5;
+}
+
+.navfooter {
+    display: flex;
+}
+
+.navfooter a {
+    color: #F5F5F5;
+    margin: 0 15px;
+}
+
+
+
+/* === DEKSTOP VERSION === */
+@media (min-width: 992px) { 
+    .search {
+        width: 500px;
+        margin-top: 100px;
+    }
+    
+    .search form button {
+        margin-left: auto;
+    }
+
+    .image img {
+        height: 650px;
+        width: 500px;
+        border-radius: 0 150px 0 150px;
+        margin-top: 0;
+    }
+
+    .jumbotron {
+        height: 600px;
+    }
+
+    .testimoni {
+        margin-top: -30px;
+    }
+    .testi {
+        background-color: 	#F5F5F5;
+        border-radius: 200px 0 200px 0;
+        height: 200px;
+        z-index: -99999;
+        padding: 50px 0;
+        text-align: center;
+    }    
+
+    .testi h2 {
+        font-size: 32px;
+    }
+
+    #about img {
+        position: relative;
+        width: 500px;
+        height: 350px;
+        border-radius: 0 100px 0 100px;
+        z-index: 999;
+    }
+
+    #about h1 {
+        margin-top: 0;
+    }
+
+    #category {
+        margin-top: 100px;
+    }
+
+    .fitur {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .fitur1 , .fitur2 , .fitur3 , .fitur4 , .fitur5 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    
+    .fitur3 p {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    #tutors {
+        background-color: #F5F5F5;
+        margin-top: 100px;
+        height: 650px;
+        border-radius: 120px 0 120px 0;
+    }
+    
+    .design {
+        background-color: #ffffff;
+        margin-top: 50px;
+        padding:20px;
+        border-radius: 15px;
+    }
+    
+    .design button {
+        margin-bottom: 20px;
+    }
+    
+    .imagemusic img {
+        height: 300px;
+        width: 350px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    
+    .imagemusic button {
+        background-color: #F5F5F5;
+        margin-top: -550px;
+        margin-left: 20px;
+        border-radius: 25px;
+        width: 80px;
+    }
+    
+    .imagemusic p {
+        color: #F5F5F5;
+        margin-top: -100px;
+        margin-left: 20px;
+    }
+    
+    .languange {
+        background-color: #ffffff;
+        margin-top: 50px;
+        padding:20px;
+        border-radius: 15px;
+    }
+    
+    
+    .languange h6 {
+        margin-top: 20px;
+    }
+    
+    .languange img {
+        margin-top: 20px;
+    }
+    
+    .art {
+        background-color: #ffffff;
+        margin-top: 20px;
+        padding:20px;
+        border-radius: 15px;
+    }
+    
+    .art h6 {
+        margin-top: 20px;
+    }
+    
+    .tutor {
+        margin-top: 50px;
+    }
+    
+    .tutor h2 {
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .tutor a {
+        margin-left: 50px;
+        color: grey;
+    }
+    
+    .music {
+        background-color: #ffffff;
+        margin-top: 70px;
+        padding:20px;
+        border-radius: 15px;   
+    }
+    
+    .music h6 {
+        margin-top: 20px;
+    }
+
+    .easier {
+        width: 100%;
+    }
+
+    #download img {
+        margin-left: 300px;
+        margin-top: 0;
+    }
+
+    .navfooter a {
+        color: #F5F5F5;
+        margin: 0 20px;
+    }
+    
+}
